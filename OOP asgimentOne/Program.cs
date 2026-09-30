@@ -25,6 +25,21 @@
             //حميتها من ان يحصل تعارض بينها وبين field فى كلاس تاني بسبب تشابهه الاسماء
 
             #endregion
+            #region answer 3
+            DeliveryAdress d1 = new DeliveryAdress("mansoura", "Glaa",43);
+            DeliveryAdress d2 = d1;
+            Console.WriteLine(d1.GetFullAdress());
+            Console.WriteLine(d2.GetFullAdress());
+            d2.setCity("cairo");
+            d2.setStreet("Ahmed Araby");
+            d2.setBuldingNum(88);
+            Console.WriteLine(d1.GetFullAdress());
+            Console.WriteLine(d2.GetFullAdress());
+
+
+
+
+            #endregion
         }
     }
 }
