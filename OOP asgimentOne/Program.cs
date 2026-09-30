@@ -36,10 +36,8 @@
             Console.WriteLine(d1.GetFullAdress());
             Console.WriteLine(d2.GetFullAdress());
 
-
-
-
             #endregion
+
         }
     }
 }
